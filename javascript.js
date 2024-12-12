@@ -48,13 +48,16 @@ let inField = [
     },
 ]
 
+let stats = []
 for (let i = 0; i < inField.length; i++) {
     inField[i].scores = Randomizer(0, 100)
     inField[i].foul = Randomizer(0, 300)
+    stats.push(`${inField[i].team}: ${inField[i].foul}`)
 }
 
-console.log(inField)
+console.log(stats, inField)
 
+/* comunque... un modo per unire */
 
 
 /* Snack 3 (Bonus)
