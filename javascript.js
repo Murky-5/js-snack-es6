@@ -4,8 +4,18 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 Stampare a schermo la bici con peso minore.
 */
 
+let bikes = [
+    {
+    name: "Giulietta",
+    weight: 300,
+},
+    {
+    name: "Graziella",
+    weight: 1,
+}
+]
 
-
+console.log(bikes[0].weight > bikes[1].weight ? bikes[1] : bikes[0]) /* Basically (?) is the if? and the two dots (:) are the else? */
 
 
 /*
