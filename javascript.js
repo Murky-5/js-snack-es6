@@ -54,12 +54,15 @@ for (let i = 0; i < inField.length; i++) {
     inField[i].foul = Randomizer(0, 300)
     stats.push(`${inField[i].team}: ${inField[i].foul}`)
 }
-
 console.log(stats, inField)
-
-/* comunque... un modo per unire */
 
 
 /* Snack 3 (Bonus)
 Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri. */
+
+// 1 -- creo una funzione che contiene es[], "a", "b"
+// 2 -- randomizzo due numeri faccio si che il più piccolo venga inserito per primo cosi che "a" > "b" sia corretto
+// 3 -- creo un "for" ecc. prendo "a" e aggiungo la "i" finchè la a non combacia con la "b"
+// 4 -- prendo il valore di "i" e lo divido per due, poi lo aggiungo ad "a"
+// 5 -- assegno i dati dei numeri iniziali in un altro array e vi ritorno il risultato di "a + i / 2"
