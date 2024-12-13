@@ -68,3 +68,6 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 
 let result = [];
 console.log(betweenNumbers(result, Randomizer(1, 100), Randomizer(1, 100)))
+
+let squads = ["narcelli", "romia", "casaleri", "emceseli"]
+console.log(betweenSquads(squads, 1, 3))

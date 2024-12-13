@@ -10,3 +10,16 @@ function betweenNumbers(container = [], a, b) {
     return container
   }
 }
+
+function betweenSquads(container, a, b) {
+  const containerFun = []
+  if (a > b) {
+    return console.error("!404!");
+  } else {
+      for (let i = 0; a <= b; i++){
+        containerFun.push(container[a])
+        a = a + i
+      }
+    return containerFun
+  }
+}
