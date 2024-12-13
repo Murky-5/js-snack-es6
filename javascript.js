@@ -24,7 +24,6 @@ Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0
 Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
 Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
 
-
 let inField = [
     {
         team: "narcelli",
@@ -66,3 +65,6 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 // 3 -- creo un "for" ecc. prendo "a" e aggiungo la "i" finchè la a non combacia con la "b"
 // 4 -- prendo il valore di "i" e lo divido per due, poi lo aggiungo ad "a"
 // 5 -- assegno i dati dei numeri iniziali in un altro array e vi ritorno il risultato di "a + i / 2"
+
+let result = [];
+console.log(betweenNumbers(result, Randomizer(1, 100), Randomizer(1, 100)))
